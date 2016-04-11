@@ -1,3 +1,6 @@
+# Taken from http://ixti.net/software/2013/01/28/using-jekyll-plugins-on-github-pages.html
+# necessary since some plugins needed to build site, and github-pages runs in safe
+# mode (no arbitrary code execution).
 require "tmpdir"
 
 require "bundler/setup"
