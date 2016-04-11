@@ -1,0 +1,15 @@
+title: Immaculate
+description: >
+  A beautiful, fast, AMP-compliant Jekyll theme based on Tufte CSS.
+baseurl: ""
+url: "https://singularperturbation.github.io"
+paginate:	2 # The number of posts to show per page on your homepage
+name: "Sloane Simmons"
+email: sloanes DOT k AT gmail DOT com
+markdown: kramdown
+permalink: none
+kramdown:
+  parse_block_html: true
+gems:
+  - jekyll-paginate
+  - jekyll-compose
