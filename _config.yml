@@ -1,6 +1,6 @@
-title: Immaculate
+title: Nimprov lessons
 description: >
-  A beautiful, fast, AMP-compliant Jekyll theme based on Tufte CSS.
+  A blog about programming, data science, Nim, and other deluded ramblings.
 baseurl: ""
 url: "https://singularperturbation.github.io"
 paginate:	2 # The number of posts to show per page on your homepage
