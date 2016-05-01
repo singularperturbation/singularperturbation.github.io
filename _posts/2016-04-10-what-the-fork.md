@@ -1,6 +1,10 @@
 ---
 layout: post
 title: What the Fork
+tags:
+- Nim
+- sockets
+- POSIX
 ---
 
 # Exploring fork (2) and sockets in Nim
@@ -192,7 +196,7 @@ else:
 
 It's slightly amazing to me that I can call `fork` from the posix module (which
 is really just calling the native C `fork` function) and install signal handlers
-and my Nim program (that has a runtime, however minimal, a garbage collector, 
+and my Nim program (that has a runtime, however minimal, a garbage collector,
 etc.) will 'just work' regardless.
 
 The `clientSock.handleConnection` part is a call to the `handleConnection`
