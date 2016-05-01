@@ -2,8 +2,12 @@ GEM
   remote: https://rubygems.org/
   specs:
     byebug (8.2.4)
+    classifier-reborn (2.0.4)
+      fast-stemmer (~> 1.0)
     colorator (0.1)
+    fast-stemmer (1.0.2)
     ffi (1.9.10)
+    gsl (2.1.0)
     jekyll (3.0.3)
       colorator (~> 0.1)
       jekyll-sass-converter (~> 1.0)
@@ -28,6 +32,8 @@ GEM
     mercenary (0.3.6)
     rake (11.1.2)
     rb-fsevent (0.9.7)
+    rb-gsl (1.16.0.6)
+      gsl
     rb-inotify (0.9.7)
       ffi (>= 0.5.0)
     rouge (1.10.1)
@@ -39,10 +45,13 @@ PLATFORMS
 
 DEPENDENCIES
   byebug
+  classifier-reborn
+  fast-stemmer
   jekyll
   jekyll-compose
   jekyll-paginate
   rake
+  rb-gsl
 
 BUNDLED WITH
    1.11.2
