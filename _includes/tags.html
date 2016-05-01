@@ -1,0 +1,12 @@
+<!-- Tags for an individual post -->
+  <br/>
+  <p class="tags">
+    Tags:
+  </p>
+  <ul class="tags">
+    {% for tag in page.tags %}
+      <li class="tags">
+        <a href="{{site.baseurl}}/tag/{{tag | jekyll_tagging_slug }}">{{tag}}</a>
+      </li>
+    {% endfor %}
+  </ul>

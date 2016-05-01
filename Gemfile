@@ -10,3 +10,6 @@ gem 'rake'
 gem 'classifier-reborn'
 gem 'fast-stemmer'
 gem 'rb-gsl'
+
+# Tagging
+gem 'jekyll-tagging'

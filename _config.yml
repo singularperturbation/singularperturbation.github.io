@@ -7,10 +7,12 @@ paginate:	2 # The number of posts to show per page on your homepage
 name: "Sloane Simmons"
 email: sloanes DOT k AT gmail DOT com
 markdown: kramdown
-lsi: true
-permalink: none
+lsi: false
+permalink: pretty
 kramdown:
   parse_block_html: true
+tag_page_layout: tagging
+tag_page_dir: tag
 gems:
   - jekyll-paginate
   - jekyll-compose
