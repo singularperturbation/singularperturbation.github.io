@@ -54,10 +54,10 @@ of Crenshaw's tutorial deals with what he calls the 'cradle' - certain routines
 that he'll use over and over later in the course.
 
 I've implemented this in the `cradle` branch of my Github repo for this project
-(found here)[https://github.com/singularperturbation/crenshaw/blob/cradle/src/cradle/common.nim].
+[found here](https://github.com/singularperturbation/crenshaw/blob/cradle/src/cradle/common.nim).
 There's not much to say about it (since it's all fairly basic routines for reading
-in input character-by-character), but I give an example of how I was able to keep the
-new implementation close to the
+in input character-by-character), but I can give an example of how I was able to keep the
+new implementation close to the original:
 
 ### Crenshaw's implementation
 {% highlight pascal %}
