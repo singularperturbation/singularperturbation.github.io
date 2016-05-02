@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Crenshaw's compiler course - Cradle and Expression Parsing (part 1)
+title: Crenshaw's compiler course - Cradle (part 1)
 tags:
 - Nim
 - Crenshaw
